@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Panel de Inicio</title>
+    <style>body { font-family: Arial; text-align: center; margin-top: 100px; background-color: #e9ecef; } .card { background: white; padding: 40px; display: inline-block; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); } a { color: #dc3545; text-decoration: none; font-weight: bold; }</style>
+</head>
+<body>
+    <div class="card">
+        <h1 style="color: #28a745;">¡Bienvenido al Sistema!</h1>
+        <p>Has iniciado sesión correctamente con el backend.</p>
+        <p><strong>Tu Correo:</strong> <%= email %></p>
+        <p><strong>Tu Firebase UID:</strong> <small><%= uid %></small></p>
+        <hr>
+        <p><a href="/logout">Cerrar Sesión de Forma Segura</a></p>
+    </div>
+</body>
+</html>
